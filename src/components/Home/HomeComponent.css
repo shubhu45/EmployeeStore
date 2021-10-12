@@ -1,0 +1,47 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+}
+table{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+
+}
+th{
+    padding: 10px;
+    border: 1px solid;
+
+}
+td{
+    padding: 10px;
+    padding-left: 31px;
+}
+.row-data{
+    padding: 10px;
+    padding-left: 31px;
+    border: 1px solid;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00ff00;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+.edit-link{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+img{
+    border-radius: 13%;
+    width: 137px;
+    border: 1px solid;
+}
