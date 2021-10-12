@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Home from './component/Home';
+import HomeComponent from './components/Home/HomeComponent';
 
 
 function App() {   
@@ -10,10 +10,12 @@ function App() {
       <div className="container">
           <Router>
               <div className="col-md-12">
-                  <h1 className="text-center" style={style}></h1>
+                 <header className="header-container">
+                     EmployeeStore
+                 </header>
                   <Switch>
-                      <Route path="/" exact component={Home} />
-                      <Route path="/home" component={Home} />
+                      <Route path="/" exact component={HomeComponent} />
+                      <Route path="/home" component={HomeComponent} />
                  
                   </Switch>
               </div>
